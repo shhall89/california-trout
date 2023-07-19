@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Page Title</title>
+    <title>Salvelinus</title>
 
     <!-- Including the main.css file for styling -->
     <link rel="stylesheet" href="css/main.css">
@@ -20,10 +20,8 @@
 
         <!-- Active link pointing to the section1.html page -->
         <a class="active" href="section1.html">Salvelinus</a>
-
         <a href="section2.html">Oncorynchus mykiss</a>
         <a href="section3.html">Oncorynchus clarkii</a>
-        <a href="see_also.html">See Also</a>
         <a href="references.html">References</a>
 
         <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links on smaller screens -->
@@ -34,9 +32,14 @@
 
     <!-- Page content -->
     <div class="content">
-        <!-- Section 1 content -->
-        <img src="img/bull-tr.png">
-        Bull Trout (Salvelinus confluentus)
+
+        <img src="img/bull-tr.png" class="fish">
+        <p class="caption">Bull Trout (Salvelinus confluentus)
+        <br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+
+        <button onclick="myFunction()" id="myBtn">Read more</button>
+
     </div>
     
     <!-- Including the main.js file for JavaScript functionality -->
